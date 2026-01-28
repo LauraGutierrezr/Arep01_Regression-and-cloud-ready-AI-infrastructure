@@ -53,9 +53,6 @@ Open one of the notebooks, for example:
 
 Run all cells to visualize the dataset, train the regression models, and observe convergence behavior and final predictions.
 
-## Running the tests
-
-This project does not include automated unit tests. Validation is performed through numerical results and visual inspection, which is standard for exploratory machine learning notebooks.
 
 ### Break down into end to end tests
 
@@ -67,7 +64,7 @@ End-to-end validation consists of:
 Example:
 
 ```
-Execute all cells in the notebook and verify that the final loss value is significantly lower than the initial loss.
+Execute all cells in the notebook and verify that the final loss value is significantly lower than the initial loss
 ```
 
 ### And coding style tests
@@ -136,7 +133,6 @@ Executing the notebooks in SageMaker illustrates how model training can be moved
 
 ## Deployment
 
-No production deployment is required for this project. 
 The notebooks must be uploaded and executed in AWS SageMaker Studio (AWS Academy environment) as execution evidence for the assignment. All cells must run successfully and produce visible outputs and plots.
 
 ## Built With
